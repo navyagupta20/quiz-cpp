@@ -182,6 +182,10 @@ int main()
                 }
 
                 cout << "\nFinal score is: " << score << endl;
+                if(score == 7) cout << "Excellent! You got all answers correct." << endl;
+                else if(score >= 5) cout << "Very Good! Great performance." << endl;
+                else if(score >= 3) cout << "Good! Keep practicing." << endl;
+                else cout << "Needs Improvement. Try again!" << endl;
             }
             else
                 cout << "exit";
